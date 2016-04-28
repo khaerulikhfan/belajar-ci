@@ -8,6 +8,5 @@ public class BelajarCiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BelajarCiApplication.class, args);
-                System.out.print("hai");
 	}
 }
