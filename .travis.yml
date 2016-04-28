@@ -6,6 +6,10 @@ jdk:
 services:
     - mysql
 
+after_success:
+    - mvn jacoco:report coveralls:report
+
+
 before_install: 
     - mysql -uroot -e "grant all on belajar.* to belajar@localhost identified by 'java'"
     - mysql -uroot -e "drop database if exists belajar_continuous_integration"
