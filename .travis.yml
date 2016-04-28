@@ -8,5 +8,5 @@ services:
 
 before_install: 
     - mysql -uroot -e "grant all on belajar.* to belajar@localhost identified by 'java'"
-    - mysql -uroot -e "drop database if exists belajar"
-    - mysql -uroot -e "create database belajar"
+    - mysql -uroot -e "drop database if exists belajar_continuous_integration"
+    - mysql -uroot -e "create database belajar_continuous_integration"

@@ -28,7 +28,7 @@ public class ProductController {
     @Autowired
     private ProductDao productDao;
 
-    @RequestMapping(value = "/api", method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public Page<Product> findAll(Pageable page) {
         return productDao.findAll(page);
     }
