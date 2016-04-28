@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BelajarCiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BelajarCiApplication.class, args);
+		//SpringApplication.run(BelajarCiApplication.class, args);
 	}
 }
